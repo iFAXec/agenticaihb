@@ -1,0 +1,6 @@
+# Anti-Bloat: Prevent sync to Global Brain
+*.md
+*.png
+/test_results/
+/artifacts/
+/assets/
