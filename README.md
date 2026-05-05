@@ -4,7 +4,7 @@ A modern, high-converting landing page for an AI automation agency, built with a
 
 ## Features
 - **Alex Hormozi Style Copy**: Direct, clear value propositions with strong calls to action.
-- **Dark Mode UI**: Sleek `#0f1520` background with `#3b82f6` electric blue glow effects.
+- **Premium Light UI**: Sophisticated Floral White (`#FFFAF0`) background with Crimson (`#E03F4F`) highlights and Olive Green accents.
 - **Glassmorphism**: Translucent cards and elements for a premium, modern feel.
 - **Interactive FAQ**: Simple, vanilla JS accordion for common questions.
 - **Fully Responsive**: Optimized for desktop, tablet, and mobile viewing.
