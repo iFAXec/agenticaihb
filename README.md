@@ -1,29 +1,27 @@
-# Agentic AIHB Redesigned Platform
+# Agentic AIHB
 
-A highly modern, minimalistic, and high-conversion landing page tailored to sell "AI Employees" (Digital Receptionists, AI Marketers, and Operations Specialists).
+A modern, high-conversion landing page designed for an enterprise-grade AI automation agency. The website serves to showcase specific AI employee services—such as Digital Receptionists, AI Marketers, and Operations Specialists—and includes interactive tools like an ROI calculator to demonstrate tangible bottom-line value.
 
-## Setup & Local Development
-1. **Clone/Download** the repository to your local machine.
-2. **Launch a Local Server**:
-   You can use Python's built-in HTTP server:
+## Features
+- **Interactive ROI Calculator**: Dynamically adjusts savings and recovery metrics based on labor costs and weekly hours saved.
+- **Embedded Scheduling**: Direct Calendly integration for instant consultation bookings.
+- **Responsive Layout**: Fully optimized for desktop, tablet, and mobile screens.
+- **Premium Aesthetics**: Monochromatic dark theme with stark tactical accents for a trustworthy, enterprise feel.
+
+## Local Setup
+1. Clone or download the repository.
+2. Open the project root directory.
+3. Start a local development server. If you have Python installed, you can run:
    ```bash
    python -m http.server 8000
    ```
-   Alternatively, if you have Node.js installed, use `npx serve`:
-   ```bash
-   npx serve .
-   ```
-3. **Open in Browser**:
-   Navigate to `http://localhost:8000` or the port provided by your server.
+4. Open your browser and navigate to `http://localhost:8000`.
 
-## Structure
-- `index.html`: The main structural layout featuring the Hero, Solutions, Founder profile, FAQ, and CTA sections.
-- `assets/css/style.css`: Contains the sleek, minimalistic dark-mode styling with electric blue accents.
-- `assets/js/main.js`: Handles interactivity, such as the mobile menu toggle and smooth scrolling.
-- `.antigravityignore`: Prevents certain folders (`test_results`, etc.) from being indexed globally.
+## Directory Structure
+- `index.html`: The core landing page.
+- `assets/css/style.css`: All styling tokens, custom variables, and layout rules.
+- `assets/js/main.js`: Interactivity logic, including the ROI calculator and mobile nav toggles.
+- `assets/img/`: Local images, including founder avatars and logo assets.
 
-## Credits & Technologies
-- **Core**: Vanilla HTML5, CSS3, JavaScript.
-- **Typography**: Google Fonts (Inter).
-- **Icons**: FontAwesome.
-- **Booking**: Calendly Inline Widget Embed.
+## Credits
+Built and maintained by the Agentic AIHB Team.
