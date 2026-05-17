@@ -1,34 +1,27 @@
-# Agenticaihb Landing Page
+# Agentic AIHB
 
-A modern, high-converting landing page for an AI automation agency, built with a focus on Alex Hormozi-style direct response copywriting and an electric dark-mode aesthetic.
+A modern, high-conversion landing page designed for an enterprise-grade AI automation agency. The website serves to showcase specific AI employee services—such as Digital Receptionists, AI Marketers, and Operations Specialists—and includes interactive tools like an ROI calculator to demonstrate tangible bottom-line value.
 
 ## Features
-- **Alex Hormozi Style Copy**: Direct, clear value propositions with strong calls to action.
-- **Premium Light UI**: Sophisticated Floral White (`#FFFAF0`) background with Crimson (`#E03F4F`) highlights and Olive Green accents.
-- **Glassmorphism**: Translucent cards and elements for a premium, modern feel.
-- **Interactive FAQ**: Simple, vanilla JS accordion for common questions.
-- **Fully Responsive**: Optimized for desktop, tablet, and mobile viewing.
+- **Interactive ROI Calculator**: Dynamically adjusts savings and recovery metrics based on labor costs and weekly hours saved.
+- **Embedded Scheduling**: Direct Calendly integration for instant consultation bookings.
+- **Responsive Layout**: Fully optimized for desktop, tablet, and mobile screens.
+- **Premium Aesthetics**: Monochromatic dark theme with stark tactical accents for a trustworthy, enterprise feel.
 
-## Tech Stack
-- HTML5 (Semantic Structure)
-- CSS3 (Vanilla CSS, Flexbox, CSS Grid, Custom Variables)
-- JavaScript (Vanilla JS for DOM manipulation)
+## Local Setup
+1. Clone or download the repository.
+2. Open the project root directory.
+3. Start a local development server. If you have Python installed, you can run:
+   ```bash
+   python -m http.server 8000
+   ```
+4. Open your browser and navigate to `http://localhost:8000`.
 
-## Setup & Usage
-This is a static site. No build process or server-side rendering is required.
-
-1. **Clone or Download** the repository.
-2. **Open `index.html`** in any modern web browser (Chrome, Firefox, Safari, Edge).
-   - Alternatively, use a local server like Live Server (VS Code extension) or Python's `http.server`:
-     ```bash
-     python -m http.server 8000
-     ```
-3. **Customize**:
-   - Update your Cal.com / Calendly links in the Call-To-Action sections in `index.html`.
-   - Update contact email and social links in the footer.
+## Directory Structure
+- `index.html`: The core landing page.
+- `assets/css/style.css`: All styling tokens, custom variables, and layout rules.
+- `assets/js/main.js`: Interactivity logic, including the ROI calculator and mobile nav toggles.
+- `assets/img/`: Local images, including founder avatars and logo assets.
 
 ## Credits
-- Built for Agenticaihb
-- AI Workflow implementation by AntiGravity Agent System
-- Font: [Inter via Google Fonts](https://fonts.google.com/specimen/Inter)
-- Icons: [FontAwesome](https://fontawesome.com/)
+Built and maintained by the Agentic AIHB Team.
